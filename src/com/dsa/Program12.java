@@ -50,7 +50,9 @@ public class Program12 {
                 new Employee12("rohan", "rohan@.com")
         );
         List<Employee12> getList = addemp.stream().filter(emp -> emp.getEmail().contains("student")).toList();
+        System.out.println("List of employee");
         getList.forEach(System.out::println);
+
 
     }
 
